@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Programmers Calculator</string>
+    <string name="onListOpen">Open</string>
+    <string name="onListClose">Close</string>
+    <string name="developer_name">Developer: Tehleel Mir</string>
+    <string name="contact">Contact: tehleelmir64@gmail.com</string>
+    <string name="java"><a href="https://rextester.com/l/java_online_compiler">Java</a></string>
+    <string name="c"><a href="https://www.jdoodle.com/c-online-compiler/">C</a></string>
+    <string name="cpp"><a href="https://www.jdoodle.com/online-compiler-c++/">C++</a></string>
+    <string name="python"><a href="https://www.programiz.com/python-programming/online-compiler/">Python</a></string>
+    <string name="javascrip"><a href="https://rextester.com/l/js_online_compiler">JavaScript</a></string>
+
+    <string-array name="list_titles">
+        <item>Home</item>
+        <item>About</item>
+    </string-array>
+
+    <string-array name="main_titles">
+        <item>ASCII Table</item>
+        <item>Converter</item>
+        <item>Modulus(Mod)</item>
+        <item>Compiler\'s</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroun"
+    android:padding="@dimen/mod_activity_padding"
+    tools:context=".mod_activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="@dimen/mod_activity_result_textSize"
+        android:fontFamily="serif-monospace"
+        android:id="@+id/mod_result"
+        android:layout_height="@dimen/mod_result_hight"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/input1"
+            android:textColor="@color/typeTextColor"
+            android:textColorHint="@color/typeTextColor"
+            android:inputType="number"
+            android:hint="Input"
+            android:padding="@dimen/mod_activity_padding"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="MOD"
+            android:padding="@dimen/mod_activity_padding"
+            android:textSize="20sp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:textColor="@color/typeTextColor"
+            android:textColorHint="@color/typeTextColor"
+            android:id="@+id/input2"
+            android:hint="Input"
+            android:padding="@dimen/mod_activity_padding"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:text="Click"
+        android:textStyle="bold"
+        android:id="@+id/mod_button"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:fontFamily="serif-monospace"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

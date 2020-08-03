@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="aboutFragmentPadding">6dp</dimen>
+    <dimen name="mod_result_hight">240dp</dimen>
+    <dimen name="mod_activity_padding">8dp</dimen>
+    <dimen name="mod_activity_result_textSize">45sp</dimen>
+    <dimen name="conveter_activity_result_textSize">25sp</dimen>
+</resources>
